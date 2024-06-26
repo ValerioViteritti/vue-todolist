@@ -27,6 +27,10 @@ body>img{
     border-color: rgb(220, 220, 220);
 }
 
+small {
+    color: red;
+}
+
 .tasks-container{
     margin-top: 50px;
 }
@@ -37,6 +41,21 @@ body>img{
     max-width: 200px;
     min-height: 50px;
     margin: 0 auto;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.tasks-container ul li{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    /* FLEX */
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks-container ul li:hover{
+    background-color: rgb(136, 180, 139);
 }
 
 .tasks-container h2{
