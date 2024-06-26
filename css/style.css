@@ -1,0 +1,50 @@
+*{
+    list-style-type: none;
+
+}
+
+body{
+    text-align: center;
+    
+    
+}
+
+body>img{
+    width: 400px;
+    margin-top: 20px;
+}
+
+#app input{
+    padding: 10px 120px 10px 20px;
+    border-radius: 10px;
+    border-color: rgb(220, 220, 220);
+    margin-top: 20px;
+}
+
+#app button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: rgb(220, 220, 220);
+}
+
+.tasks-container{
+    margin-top: 50px;
+}
+
+.tasks-container ul{
+    background-color: rgb(112, 212, 119);
+    min-width: 800px;
+    max-width: 200px;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+.tasks-container h2{
+    background-color: rgb(198, 212, 5);
+    min-width: 800px;
+    max-width: 200px;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+
